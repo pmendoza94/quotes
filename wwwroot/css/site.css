@@ -1,0 +1,18 @@
+/*Write all of your CSS here*/
+body{
+    margin: 5%;
+}
+#submit {
+    width: 125px;
+    margin-left: 10px;
+}
+button {
+    width: 125px;
+    margin-left: 70px;;
+}
+form {
+    margin-left: 40%;
+}
+h1 {
+    margin-left: 40%;
+}

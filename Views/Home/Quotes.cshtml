@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "QuotingDojo";
+}
+<!-- @{
+    var created_at = Now();
+    string formattedDateTime = String.Format("{0:hh:mm tt MMM d, yyyy}", created_at);
+} -->
+
+<h1>Here are the Awesome Quotes!</h1>
+
+
+@foreach(var quote in @ViewBag.AllQuotes){
+    <div>
+        <p>" @quote["content"] "</p>
+        <h4>@quote["name"] at @quote["created_at"]</h4>
+    </div>
+}
+
+<button><a href="/">Go Back</a></button>
+
+
+
